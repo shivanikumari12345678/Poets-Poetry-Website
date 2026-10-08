@@ -1,0 +1,32 @@
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.log
+
+# Build Outputs
+dist/
+build/
+*/dist/
+
+# Project Planning, Requirements & Client Asset Folders (Excluded from GitHub)
+01-Client-Requirements/
+02-Project-Planning/
+03-Design/
+05-Testing/
+06-Client-Assets/
+07-Deployment/
+0*-*/
